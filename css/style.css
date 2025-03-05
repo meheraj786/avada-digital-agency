@@ -22,3 +22,12 @@ a{
   --h2-lh: 46px;
   --h3-lh: 32px;
 }
+header .view-shop{
+  background: var(--blue);
+  display: flex;
+  color: white;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 42px;
+  overflow: hidden;
+}
