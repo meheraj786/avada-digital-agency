@@ -44,6 +44,7 @@ header .view-shop{
   justify-content: space-between;
   height: 42px;
   overflow: hidden;
+  margin-bottom: 68px;
 }
 header nav .btn{
   color: var(--orange);
@@ -120,5 +121,15 @@ header nav .btn:hover{
 }
 #banner .container .row .col-lg-5 a span i{
   color: white;
+}
+
+#partners{
+  padding: 114px 0;
+}
+#partners .logos{
+  margin-top: 51px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
 }
