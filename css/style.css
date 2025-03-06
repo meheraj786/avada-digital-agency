@@ -258,3 +258,49 @@ header nav .btn:hover{
   color: var(--orange);
   border: 1px solid var(--orange);
 }
+
+#projects{
+  padding: 155px 0;
+  background: linear-gradient(145deg, var(--blue), var(--light-blue));
+  color: white;
+}
+#projects .project-top{
+  margin-bottom: 100px;
+}
+#projects .project-top h2{
+  font-family: var(--h-font);
+  font-size: var(--h1-size);
+  font-weight: 700;
+  line-height: var(--h1-lh);
+}
+#projects .project-top p{
+  width: 454px;
+  line-height: var(--h3-lh);
+}
+#projects .project-top button{
+  color: var(--orange);
+  padding: 18px 30px;
+  background: var(--btn-bg);
+  border-radius: var(--br);
+  border: 1px solid var(--btn-bg);
+}
+#projects .project-top button:hover{
+  color: white;
+  background: var(--orange);
+  border: 1px solid var(--orange);
+  border-radius: var(--br);
+}
+#projects .col-lg-4 .description{
+  background: white;
+  color: black;
+  text-align: center;
+  max-width: 377px;
+  padding: 30px 57px;
+  margin-top: 0;
+  border-bottom-left-radius: var(--br);
+  border-bottom-right-radius: var(--br);
+}
+#projects .col-lg-4 .description h4{
+  font-size: 18px;
+  font-weight: normal;
+}
