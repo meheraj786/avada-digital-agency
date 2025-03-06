@@ -178,3 +178,41 @@ header nav .btn:hover{
   padding: 180px 0;
   padding-bottom: 70px;
 }
+
+#services .card{
+  text-align: center;
+  border: none;
+  max-width: 230px;
+
+}
+#services .card h3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: var(--h-font);
+  font-weight: 700;
+}
+#services .row span:first-child{
+  color: red;
+}
+#services .card span .bi{
+  font-size: 28px;
+  padding: 15px;
+  border-radius: var(--br);
+}
+.blue{
+  background: rgba(0, 85, 255, 0.075);
+  color: #0256FF;
+}
+.orange{
+  background: rgba(244, 91, 31, 0.075);
+  color: #F45C20;
+}
+.green{
+  background: rgba(61, 205, 92, 0.075);
+  color: #3DCD5C;
+}
+.purple{
+  background: rgba(193, 61, 205, 0.075);
+  color: #C13DCD;
+}
