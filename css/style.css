@@ -75,6 +75,7 @@ header nav .btn:hover{
   justify-content: space-between;
   margin-bottom: 19px;
 }
+
 #banner .container .row .col-lg-5 h1{
   font-size: var(--h1-size);
   line-height: var(--h1-lh);
@@ -182,7 +183,7 @@ header nav .btn:hover{
 #services .card{
   text-align: center;
   border: none;
-  max-width: 230px;
+  max-width: 235px;
 
 }
 #services .card h3{
@@ -215,4 +216,45 @@ header nav .btn:hover{
 .purple{
   background: rgba(193, 61, 205, 0.075);
   color: #C13DCD;
+}
+
+#dev img{
+  max-width: 900px;
+  margin-left: -60px;
+}
+#dev .col-lg-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#dev .col-lg-5 {
+  max-width: 468px;
+}
+#dev .col-lg-5 p:first-child{
+  color: var(--light-blue);
+}
+
+#dev .col-lg-5 h2{
+  font-family: var(--h-font);
+  line-height: var(--h2-lh);
+  font-size: var(--h2-size);
+  font-weight: 700;
+  margin-top: 20px;
+  width: 468px;
+  margin-bottom: 35px;
+}
+#dev .col-lg-5 button{
+  padding: 20px 32px;
+  background: var(--orange);
+  color: white;
+  border: 1px solid var(--orange);
+  border-radius: var(--br);
+  margin-top: 50px;
+}
+#dev .col-lg-5 button:hover{
+  padding: 20px 32px;
+  background: rgba(244, 91, 31, 0.075);
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
