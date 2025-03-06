@@ -397,3 +397,65 @@ header nav .btn:hover{
   width: 255px;
   font-weight: 500;
 }
+
+#subscribe{
+  padding-top: 115px;
+  background: url(../images/newsletter-bg\ 1.png);
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+#subscribe:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#000000, rgba(0, 0, 0, 0.705));
+  z-index: -1;
+}
+#subscribe .col-lg-6 h2{
+  font-size: var(--h2-size);
+  line-height: var(--h2-lh);
+  font-weight: 700;
+font-family: var(--h-font);
+width: 100%;
+margin-top: 73px;
+}
+#subscribe .col-lg-6 p{
+  font-size: 18px;
+  line-height: 31px;
+  font-weight: 400;
+  max-width: 501px;
+  margin-top: 25px;
+  margin-bottom: 48px;
+}
+#subscribe .col-lg-6 .p{
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  max-width: 501px;
+  margin-top: 39px;
+}
+#subscribe .col-lg-6 input{
+  padding: 24px 17px;
+  padding-right: 192px;
+  border: none;
+  border-radius: 10px;
+  color: #898989;
+}
+#subscribe .col-lg-6 button{
+  padding: 25px 42px;
+  border: 1px solid var(--orange);
+  background: var(--orange);
+  border-radius: var(--br);
+  color: white;
+}
+#subscribe .col-lg-6 button:hover{
+  padding: 25px 42px;
+  background: rgba(244, 92, 32, 0.253);
+  border: 1px solid var(--orange);
+  border-radius: var(--br);
+  color: var(--orange);
+}
