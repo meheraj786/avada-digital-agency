@@ -55,3 +55,30 @@ gsap.fromTo('.scale', {
     transition: "ease-in"
   },
 });
+
+gsap.fromTo('.sTop', {
+  y: -500,
+  opacity:0,
+}, {
+  y: 0,
+  opacity:1,
+  scrollTrigger: {
+    markers:true,
+    start: "top 40%",
+    end: "top center",
+    trigger: '#services',
+    scrub:1
+  },
+});
+gsap.fromTo('.sBottom', {
+  y: 500,
+  duration: 1,
+}, {
+  y: 0,
+  scrollTrigger: {
+    trigger: '#services ',
+    start: "top 40%",
+    end: "top center",
+    scrub: 1,
+  },
+});
