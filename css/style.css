@@ -496,3 +496,31 @@ margin-top: 73px;
 #identity .col-lg-4 a{
   margin-top: 37px;
 }
+.floatingX {
+  animation: floatingX 3s infinite ease-in-out;
+  animation: floatingY 3s infinite ease-in-out;
+}
+.floating {
+  animation: floating 3s infinite ease-in-out;
+}
+button{
+  animation: floating 3s infinite ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0%,0%);
+  }
+  25%{
+    transform: translate(.4%, -.4%);
+  }
+  50% {
+    transform: translate(-.4%, .4%);
+  }
+  75%{
+    transform: translate(.4%, -.4%);
+  }
+  100% {
+    transform: translate(0%,0%);
+  }
+}
